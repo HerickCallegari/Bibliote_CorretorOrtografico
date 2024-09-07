@@ -66,6 +66,11 @@
 		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/TRIE.h" />
 		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Utils.h" />
 		<Unit filename="../Biblioteca_CorretorOrtografico/CorretorOrtografico.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Operacoes/AdicionarPalavra.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Operacoes/CorrigirOrtografia.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Operacoes/CriaArvoreCorretor.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Operacoes/PopulaArvore.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Operacoes/palavraMinuscula.h" />
 		<Unit filename="../Biblioteca_CorretorOrtografico/TAD_CO.h" />
 		<Unit filename="../Biblioteca_CorretorOrtografico/Utils.h" />
 		<Unit filename="main.c">

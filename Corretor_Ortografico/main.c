@@ -1,39 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <strings.h>
 #include "../Biblioteca_CorretorOrtografico/CorretorOrtografico.h"
-
+#include "../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Utils.h"
 
 int main() {
-    char *palavra;      // Ponteiro para armazenar a palavra
-    FILE *arquivo;      // Ponteiro para o arquivo
-    int tamanho;
+    char *path = "C:\\Users\\zenop\\OneDrive\\Área de Trabalho\\Prova_2\\Corretor_Ortografico\\Palavras.txt";
 
-    // Alocando memória para a palavra
-    palavra = (char *)malloc(tamanho * sizeof(char));
+    char *palavra = (char *)malloc(100 * sizeof(char));
     if (palavra == NULL) {
         printf("Erro ao alocar memória.\n");
         return 1;
     }
 
-    // Abrindo o arquivo em modo de acréscimo ("a")
-    arquivo = fopen("../Biblioteca_CorretorOrtografico/Palavras.txt", "a");
-    if (arquivo == NULL) {
-        printf("Erro ao abrir o arquivo.\n");
-        free(palavra);  // Liberando a memória antes de sair
-        return 1;
-    }
+    pDTRIE arvore = CriaCorretor();
+    PopulaArvore(path, arvore, comparaChar, fatiaString);
 
-    // Solicitando a palavra ao usuário
-    printf("Digite a palavra: ");
+    // desenhaTRIE(arvore, imprimeChar);
+
+
+    printf("\nPalava: ");
     scanf("%s", palavra);
 
-    // Escrevendo a palavra no arquivo
-    fprintf(arquivo, "%s\n", palavra);
+    char* palavraCorrigida = CorrigirOrtografia(arvore, palavra, comparaChar, fatiaString);
 
-    // Fechando o arquivo
-    fclose(arquivo);
+    if ( palavraCorrigida != NULL) {
+        printf("%s", palavraCorrigida);
+    }
 
-    // Liberando a memória alocada
     free(palavra);
 
     return 0;

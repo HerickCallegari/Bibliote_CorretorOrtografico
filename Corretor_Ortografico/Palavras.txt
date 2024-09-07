@@ -1,2 +1,6 @@
-carro
-100
+cachorro
+lapis
+jogos
+jujubas
+cabritis
+jujuba

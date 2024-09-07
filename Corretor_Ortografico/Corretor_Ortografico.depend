@@ -1,13 +1,19 @@
 # depslib dependency file v1.0
-1725668498 source:c:\users\zenop\onedrive\햞ea de trabalho\prova_2\corretor_ortografico\main.c
+1725720597 source:c:\users\zenop\onedrive\햞ea de trabalho\prova_2\corretor_ortografico\main.c
 	<stdio.h>
 	<stdlib.h>
+	<strings.h>
 	"../Biblioteca_CorretorOrtografico/CorretorOrtografico.h"
+	"../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Utils.h"
 
-1725667256 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\corretorortografico.h
+1725718875 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\corretorortografico.h
 	"Biblioteca_TRIE/Cap5/TRIE.h"
 	"TAD_CO.h"
 	"Operacoes/CriaArvoreCorretor.h"
+	"Operacoes/CorrigirOrtografia.h"
+	"Operacoes/AdicionarPalavra.h"
+	"Operacoes/PopulaArvore.h"
+	"Operacoes/palavraMinuscula.h"
 
 1723502307 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\trie.h
 	"../Cap3/Lista.h"
@@ -92,7 +98,28 @@
 
 1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\12_desenhaarvore.h
 
-1725667076 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\tad_co.h
+1725720643 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\tad_co.h
+	<strings.h>
 
 1725667258 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\criaarvorecorretor.h
+
+1725674209 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\adicionarpalavra.h
+	<stdio.h>
+
+1725674345 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\populaarvore.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+
+1724087467 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\utils.h
+	<stdio.h>
+
+1725674219 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\palavraminuscula.h
+	<stdio.h>
+
+1725722470 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\corrigirortografia.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
 
