@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Corretor_Ortografico" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Corretor_Ortografico" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Corretor_Ortografico" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Lista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/0_structs.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/10_buscarInfoPos.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/11_inverterLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/13_unirListas.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/1_1_criarListaComTamanho.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/1_criarLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/2_1_incluirInfoInicio.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/2_2_incluirInfoMeio.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/2_3_incluirInfoOrdenada.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/2_incluirInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/3_1_excluirInfoPos.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/3_excluirInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/4_1_obtemInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/4_contemInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/5_imprimirLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/6_1_destruirListaNormal.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/6_2_destruirListaInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/6_destruirLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/7_duplicarLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/8_dividirLista.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Operacoes/9_buscarNohInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/TAD_ListaLinear.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap3/Utils.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/0_struct_Arvore.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/0_struct_Descritor.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/12_desenhaArvore.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/1_criarArvore.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/2_incluirInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/3_excluirInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Operacoes/4_buscarInfo.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/TAD_TRIE.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/TRIE.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Biblioteca_TRIE/Cap5/Utils.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/CorretorOrtografico.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/TAD_CO.h" />
+		<Unit filename="../Biblioteca_CorretorOrtografico/Utils.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1725668498 source:c:\users\zenop\onedrive\햞ea de trabalho\prova_2\corretor_ortografico\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Biblioteca_CorretorOrtografico/CorretorOrtografico.h"
+
+1725667256 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\corretorortografico.h
+	"Biblioteca_TRIE/Cap5/TRIE.h"
+	"TAD_CO.h"
+	"Operacoes/CriaArvoreCorretor.h"
+
+1723502307 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\trie.h
+	"../Cap3/Lista.h"
+	"TAD_TRIE.h"
+	"Operacoes/0_struct_Arvore.h"
+	"Operacoes/0_struct_Descritor.h"
+	"Operacoes/1_criarArvore.h"
+	"Operacoes/2_incluirInfo.h"
+	"Operacoes/3_excluirInfo.h"
+	"Operacoes/4_buscarInfo.h"
+	"Operacoes/12_desenhaArvore.h"
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\lista.h
+	"TAD_ListaLinear.h"
+	"Operacoes/0_structs.h"
+	"Operacoes/1_criarLista.h"
+	"Operacoes/1_1_criarListaComTamanho.h"
+	"Operacoes/2_incluirInfo.h"
+	"Operacoes/2_1_incluirInfoInicio.h"
+	"Operacoes/2_2_incluirInfoMeio.h"
+	"Operacoes/2_3_incluirInfoOrdenada.h"
+	"Operacoes/3_excluirInfo.h"
+	"Operacoes/3_1_excluirInfoPos.h"
+	"Operacoes/4_contemInfo.h"
+	"Operacoes/5_imprimirLista.h"
+	"Operacoes/6_destruirLista.h"
+	"Operacoes/7_duplicarLista.h"
+	"Operacoes/8_dividirLista.h"
+	"Operacoes/13_unirListas.h"
+	"Operacoes/9_buscarNohInfo.h"
+	"Operacoes/10_buscarInfoPos.h"
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\tad_listalinear.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\0_structs.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\1_criarlista.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\1_1_criarlistacomtamanho.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\2_incluirinfo.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\2_1_incluirinfoinicio.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\2_2_incluirinfomeio.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\2_3_incluirinfoordenada.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\3_excluirinfo.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\3_1_excluirinfopos.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\4_conteminfo.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\5_imprimirlista.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\6_destruirlista.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\7_duplicarlista.h
+
+1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\8_dividirlista.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\13_unirlistas.h
+
+1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\9_buscarnohinfo.h
+
+1723501813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap3\operacoes\10_buscarinfopos.h
+
+1724088236 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\tad_trie.h
+
+1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\0_struct_arvore.h
+
+1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\0_struct_descritor.h
+
+1724087284 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\1_criararvore.h
+
+1725562346 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\2_incluirinfo.h
+
+1725650579 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\3_excluirinfo.h
+
+1725562374 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\4_buscarinfo.h
+
+1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\12_desenhaarvore.h
+
+1725667076 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\tad_co.h
+
+1725667258 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\criaarvorecorretor.h
+
