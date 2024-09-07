@@ -26,7 +26,8 @@ int main() {
 
     if ( palavraCorrigida != NULL) {
         printf("%s", palavraCorrigida);
-    }
+    }else
+    printf("Palavra sem possibilidade de corrigir.");
 
     free(palavra);
 

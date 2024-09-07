@@ -22,7 +22,7 @@ void PopulaArvore(char *path, pDTRIE arvore, FuncaoComparacaoAlfabeto pfc, Funca
     while (fscanf(arquivo, "%100s", palavra) != EOF) {
         // Adiciona a palavra na árvore TRIE
         paraMinusculas(palavra);
-        //printf("Adicionando palavra de tamanho %lu: %s\n", strlen(palavra), palavra);
+        printf("Adicionando palavra de tamanho %lu: %s\n", strlen(palavra), palavra);
         incluirInfoTRIE(arvore, palavra, strlen(palavra), pfc, pff);
     }
 

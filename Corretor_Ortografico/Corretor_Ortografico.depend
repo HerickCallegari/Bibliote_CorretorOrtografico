@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1725720597 source:c:\users\zenop\onedrive\햞ea de trabalho\prova_2\corretor_ortografico\main.c
+1725730026 source:c:\users\zenop\onedrive\햞ea de trabalho\prova_2\corretor_ortografico\main.c
 	<stdio.h>
 	<stdlib.h>
 	<strings.h>
@@ -94,7 +94,7 @@
 
 1725650579 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\3_excluirinfo.h
 
-1725562374 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\4_buscarinfo.h
+1725733748 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\4_buscarinfo.h
 
 1723501814 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\biblioteca_trie\cap5\operacoes\12_desenhaarvore.h
 
@@ -106,7 +106,7 @@
 1725674209 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\adicionarpalavra.h
 	<stdio.h>
 
-1725674345 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\populaarvore.h
+1725730813 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\populaarvore.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -118,8 +118,9 @@
 1725674219 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\palavraminuscula.h
 	<stdio.h>
 
-1725722470 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\corrigirortografia.h
+1725733767 c:\users\zenop\onedrive\햞ea de trabalho\prova_2\biblioteca_corretorortografico\operacoes\corrigirortografia.h
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	<strings.h>
 

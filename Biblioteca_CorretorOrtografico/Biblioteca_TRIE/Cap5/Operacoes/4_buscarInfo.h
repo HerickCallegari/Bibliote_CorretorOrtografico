@@ -4,6 +4,7 @@
 /* ----------------------------------------------------------*/
 pNohTRIE buscarInfoTRIERecursivo (pNohTRIE raiz, pDLista alfabeto, void *chave, int k, int *L, int *C, FuncaoComparacao pfc, FuncaoFatiamento pff)
 {
+    printf("k = %d L = %d\n", k, *L);
     if (*L < k){
        // determina a posição j do dígito da chave (d) dentro do alfabeto
        void *d = pff(chave, *L);
